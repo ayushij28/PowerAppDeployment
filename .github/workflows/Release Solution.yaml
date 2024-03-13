@@ -22,7 +22,7 @@ on:
 
         type: string
 
-        default: '<SolutionName> '  
+        default: 'Ballard_SCAUserManagment'  
 
       solution_shipping_folder:
 
@@ -60,13 +60,13 @@ on:
 
       PRODUCTION_ENVIRONMENT_URL:
 
-        description: 'https://org5fb7f156.crm8.dynamics.com/'
+        description: 'Production environment url.'
 
         type: string
 
         required: true
 
-        default: ‘<Production Environment Url>’
+        default: ‘https://org5fb7f156.crm8.dynamics.com/’
 
        
 
@@ -78,7 +78,7 @@ on:
 
         required: true
 
-        default: ae393b69-14a9-4076-b470-4be8182aad41
+        default: 'ae393b69-14a9-4076-b470-4be8182aad41'
 
       TENANT_ID:
 
@@ -88,7 +88,7 @@ on:
 
         required: true
 
-        default: 5bac9eb0-1e6b-463d-8dbb-6ba2477914b9 
+        default: '5bac9eb0-1e6b-463d-8dbb-6ba2477914b9' 
 
  
 
