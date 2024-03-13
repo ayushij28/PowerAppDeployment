@@ -16,11 +16,11 @@ on:
 
       solution_name:
 
-        description: 'Ballard_SCAUserManagment'
+        description: 'name of the solution to worked on from Power Platform'
 
         required: true
 
-        default:  <SolutionName>
+        default:  Ballard_SCAUserManagment
 
        #Do Not change these values
 
@@ -52,11 +52,11 @@ env:
 
 #edit your values here
 
-  ENVIRONMENT_URL: https://org80c0c729.crm8.dynamics.com/
+  ENVIRONMENT_URL: 'https://org80c0c729.crm8.dynamics.com/'
 
-  CLIENT_ID: ae393b69-14a9-4076-b470-4be8182aad41
+  CLIENT_ID: 'ae393b69-14a9-4076-b470-4be8182aad41'
 
-  TENANT_ID: 5bac9eb0-1e6b-463d-8dbb-6ba2477914b9
+  TENANT_ID: '5bac9eb0-1e6b-463d-8dbb-6ba2477914b9'
 
  
 
