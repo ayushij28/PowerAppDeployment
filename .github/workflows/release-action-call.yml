@@ -8,12 +8,6 @@ on:
 permissions:
   contents: write
 jobs:
-  Export-solution-Ballard_SCAUserManagment:
-    uses: ./.github/workflows/export-and-branch-solution.yml
-    with:
-      solution_name: Ballard_SCAUserManagment     
-    secrets:
-      envSecret: ${{ secrets.PowerPlatformSPN }}
   Release-solution-Ballard_SCAUserManagment:
     uses: ./.github/workflows/release-solution-to-prod-with-inputs.yml
     with:
