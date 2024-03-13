@@ -1,4 +1,13 @@
-name: export-and-branch-solution
+jobs:
+  build:
+
+    runs-on: windows-latest   # alternate runner OS is: ubuntu-latest
+
+    steps:
+    - name: Install Power Platform Tools
+      uses: microsoft/powerplatform-actions/actions-install@v1
+
+    - name: export-and-branch-solution
 
 # Export solution from DEV environment
 
