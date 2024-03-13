@@ -16,11 +16,11 @@ on:
 
       solution_name:
 
-        description: 'Ballard_SCAUserManagment'
+        description: 'name of the solution to worked on from Power Platform'
 
         required: true
 
-        default:  <SolutionName>
+        default:  Ballard_SCAUserManagment
 
        #Do Not change these values
 
